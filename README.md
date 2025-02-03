@@ -16,7 +16,7 @@ cd bookstore-final-project
 ## Install dependencies:
 `npm install
 `
-###### Create a .env file in the root directory:
+###### Create an .env file in the root directory:
 `PORT=`
  `MONGO_URI=`
  `AUTH0_SECRET=`
