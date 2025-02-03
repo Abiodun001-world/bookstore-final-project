@@ -4,7 +4,8 @@ const CONFIG = require("./config/config");
 const connectToDb = require("./db/mongodb");
 
 // Books Route 
-const bookRouter = require("./routes/book");
+const bookRouter = require("./routes/books.routes");
+const authorRouter = require("./routes/authors.routes");
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use("/api/v1/books", bookRouter);
+app.use("/api/v1/authors", authorRouter);
 
 
 app.get("/", (req, res) => {
