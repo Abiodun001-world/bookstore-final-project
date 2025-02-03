@@ -7,21 +7,22 @@ This project is a simple API that allows users to perform CRUD operations on a b
 
 #### Installation and Setup
 Clone the repository:
-git clone https://github.com/Abiodun001-world/bookstore-final-project.git
-
+git clone:
+`https://github.com/Abiodun001-world/bookstore-final-project.git
+`
 ##### Navigate to the project directory:
 cd bookstore-final-project
 
 ## Install dependencies:
-npm install
-
+`npm install
+`
 ###### Create a .env file in the root directory:
-PORT=
-MONGO_URI=
-AUTH0_SECRET=
-AUTH0_BASE_URL=
-AUTH0_CLIENT_ID=
-AUTH0_ISSUER_BASE_URL=
+`PORT=`
+ `MONGO_URI=`
+ `AUTH0_SECRET=`
+ `AUTH0_BASE_URL=`
+ `AUTH0_CLIENT_ID=`
+ `AUTH0_ISSUER_BASE_URL=`
 
 # Start the application:
 `npm start`
