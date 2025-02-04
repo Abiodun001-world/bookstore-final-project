@@ -38,14 +38,14 @@ AUTH0_ISSUER_BASE_URL=
 ```
 
 #### Start the application:
-
 ```bash
 npm start
 ```
 ### Access the application within your local machine:
-Access the application via [http://localhost:4000](http://localhost:4000)
-login to the application via [http://localhost:4000/login](http://localhost:4000/login)
-logout of the application via [http://localhost:4000/logout](http://localhost:4000/logout) : you will be automatically logout but you might still be seeing all the authors, books in the database unless you refresh the page and if you refresh the page you should be back to login route.
+
+- Access the application via [http://localhost:4000](http://localhost:4000)
+- Login to the application via [http://localhost:4000/login](http://localhost:4000/login)
+- Logout of the application via [http://localhost:4000/logout](http://localhost:4000/logout): You will be automatically logged out, but you might still see all the authors and books in the database unless you refresh the page. If you refresh the page, you should be redirected to the login route.
 
 ### API Structure:
 
@@ -55,5 +55,5 @@ logout of the application via [http://localhost:4000/logout](http://localhost:40
 
 [BookStore API Documentation](https://documenter.getpostman.com/view/28730642/2sAYX5KNKR)
 
-### HOSTED LINK:
+### Hosted Link:
 [BookStore API](https://bookstore-final-project-7ko4.onrender.com/)
